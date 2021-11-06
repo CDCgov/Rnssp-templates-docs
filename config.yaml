@@ -4,6 +4,7 @@ defaultContentLanguage: en
 title: Rnssp RMD Templates Documentation
 theme: hugo-theme-learn
 metaDataFormat: yaml
+googleAnalytics: "G-SXTC7PZ2HK"
 defaultContentLanguageInSubdir: yes
 params:
   author: Gbedegnon Roseric Azondekon
@@ -13,7 +14,7 @@ params:
   disableLandingPageButton: yes
   disableMermaid: no
   disableNextPrev: no
-  editURL: https://github.com/cdcent/Rnssp-templates-docs/edit/master/content
+  editURL: https://github.com/cdcent/Rnssp-templates-docs/edit/master/content/
   showVisitedLinks: yes
   titleSeparator: '::'
   themeVariant: "blue"

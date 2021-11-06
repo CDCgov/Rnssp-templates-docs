@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/post/2021-11-06-knitting-with-parameters-using-the-knit-button-within-rstudio/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/templates/stateedreport/</loc>
   </url><url>
     <loc>/usage/</loc>
@@ -25,6 +28,12 @@
     <loc>/templates/syndromeeval/</loc>
   </url><url>
     <loc>/usage/removetemplate/</loc>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-11-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/add/</loc>
   </url><url>
@@ -107,8 +116,6 @@
     <loc>/tags/requirements/</loc>
   </url><url>
     <loc>/tags/rnssp/</loc>
-  </url><url>
-    <loc>/</loc>
   </url><url>
     <loc>/tags/rstudio/</loc>
   </url><url>
