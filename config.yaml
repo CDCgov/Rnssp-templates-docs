@@ -1,0 +1,50 @@
+baseURL: /
+languageCode: en-US
+defaultContentLanguage: en
+title: Rnssp RMD Templates Documentation
+theme: hugo-theme-learn
+metaDataFormat: yaml
+defaultContentLanguageInSubdir: yes
+params:
+  author: Gbedegnon Roseric Azondekon
+  customMermaidURL: https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js
+  description: Documentation for Rnssp RMD Templates
+  disableBreadcrumb: no
+  disableLandingPageButton: yes
+  disableMermaid: no
+  disableNextPrev: no
+  editURL: https://github.com/cdcent/Rnssp-templates-docs/edit/master/content
+  showVisitedLinks: yes
+  titleSeparator: '::'
+  themeVariant: "blue"
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+Languages:
+  en:
+    landingPageName: <i class='fas fa-home'></i> Home
+    landingPageURL: /en
+    languageName: English
+    menu:
+      shortcuts:
+        - identifier: ds
+          name: <i class='fab fa-fw fa-github'></i> GitHub repo
+          url: https://github.com/cdcgov/Rnssp-rmd-templates
+          weight: 10
+        - name: <i class='fas fa-fw fa-edit'></i> Change Logs
+          url: /changeLogs
+          weight: 11
+        - identifier: Rnsspdoc
+          name: <i class='fas fa-fw fa-book-open'></i> Rnssp Package Doc
+          url: https://cdcgov.github.io/Rnssp
+          weight: 20
+        - name: <i class='fas fa-fw fa-bullhorn'></i> Credits
+          url: /credits
+          weight: 30
+        - name: "<i class='fas fa-tags'></i> Tags"
+          url: "/tags"
+          weight: 30
+    title: Documentation for Rnssp R Markdown Templates
+    weight: 1

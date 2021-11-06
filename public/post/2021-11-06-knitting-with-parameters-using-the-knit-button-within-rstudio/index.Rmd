@@ -1,0 +1,11 @@
+---
+title: Knitting With Parameters Using the Knit button within RStudio!
+author: Roseric Azondekon
+date: '2021-11-06'
+slug: []
+categories: []
+tags: []
+weight: 5
+---
+
+Upcoming post.
