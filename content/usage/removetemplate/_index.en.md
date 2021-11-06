@@ -19,4 +19,4 @@ Never forget to ALWAYS **RESTART YOUR R SESSION** after removing a template from
 
 Here is a live demo:
 
-![Magic](/usage/removetemplate/images/remove_Rnssp_template.gif?classes=shadow)
+![Magic](images/remove_Rnssp_template.gif?classes=shadow)

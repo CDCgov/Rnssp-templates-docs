@@ -67,7 +67,7 @@ Rnssp::remove_rmd_template(template_name = "syndrome_eval")
 ```
 
 ---
-[**Latest Update!**](/changelogs/#syndrome-definition-evaluation-template-syndrome_eval)
+[**Latest Update!**](https://cdcgov.github.io/Rnssp-rmd-templates/changelogs/#syndrome-definition-evaluation-template-syndrome_eval)
 
 *For questions, ideas for improvement/collaboration, or attribution, please submit an issue [here](https://github.com/CDCgov/Rnssp-rmd-templates/issues).*
 

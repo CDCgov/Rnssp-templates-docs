@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: https://cdcgov.github.io/Rnssp-rmd-templates/
 languageCode: en-US
 defaultContentLanguage: en
 title: Rnssp RMD Templates Documentation
@@ -18,11 +18,11 @@ params:
   showVisitedLinks: yes
   titleSeparator: '::'
   themeVariant: "blue"
-outputs:
+Outputs:
   home:
-    - HTML
-    - RSS
-    - JSON
+  - HTML
+  - RSS
+  - JSON
 Languages:
   en:
     landingPageName: <i class='fas fa-home'></i> Home
@@ -35,14 +35,14 @@ Languages:
           url: https://github.com/cdcgov/Rnssp-rmd-templates
           weight: 10
         - name: <i class='fas fa-fw fa-edit'></i> Change Logs
-          url: /changeLogs
+          url: /changelogs
           weight: 11
         - identifier: Rnsspdoc
           name: <i class='fas fa-fw fa-book-open'></i> Rnssp Package Doc
           url: https://cdcgov.github.io/Rnssp
           weight: 20
         - name: <i class='fas fa-fw fa-bullhorn'></i> Credits
-          url: /credits
+          url: credits
           weight: 30
         - name: "<i class='fas fa-tags'></i> Tags"
           url: "/tags"

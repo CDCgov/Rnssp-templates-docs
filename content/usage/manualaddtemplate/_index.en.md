@@ -23,4 +23,4 @@ Never forget to ALWAYS **RESTART YOUR R SESSION** after adding/updating a templa
 
 Down below is a live demonstration:
 
-![Magic](/usage/manualaddtemplate/images/manually_add_Rnssp_template.gif?classes=shadow)
+![Magic](images/manually_add_Rnssp_template.gif?classes=shadow)

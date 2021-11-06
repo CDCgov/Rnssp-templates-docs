@@ -28,4 +28,4 @@ remotes::install_github("cdcgov/Rnssp") # remotes::install_github("cdcgov/Rnssp"
 Down below, is a live demonstration with the [devtools](https://devtools.r-lib.org/) R package.
 
 
-![Magic](/usage/requirements/images/install_Rnssp.gif?classes=shadow)
+![Magic](images/install_Rnssp.gif?classes=shadow)

@@ -72,7 +72,7 @@ Rnssp::remove_rmd_template(template_name = "state_ed_report")
 ```
 
 ---
-[**Latest Update!**](/changelogs/#state-emergency-department-template-state_ed_report)
+[**Latest Update!**](https://cdcgov.github.io/Rnssp-rmd-templates/changelogs/#state-emergency-department-template-state_ed_report)
 
 *For questions, ideas for improvement/collaboration, or attribution, please submit an issue [here](https://github.com/CDCgov/Rnssp-rmd-templates/issues).*
 

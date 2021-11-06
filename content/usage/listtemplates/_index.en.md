@@ -31,5 +31,5 @@ list_templates(as.table = TRUE) %>% View()
 
 Here's a live demonstration:
 
-![Magic](/usage/listtemplates/images/list_available_Rnssp_templates.gif?classes=shadow)
+![Magic](images/list_available_Rnssp_templates.gif?classes=shadow)
 

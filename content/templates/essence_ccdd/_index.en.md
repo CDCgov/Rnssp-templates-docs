@@ -64,7 +64,7 @@ Rnssp::remove_rmd_template(template_name = "essence_ccdd")
 ```
 
 ---
-[**Latest Update!**](/changelogs/#essence-chief-complaint-and-discharge-diagnosis-categories-template-essence_ccdd)
+[**Latest Update!**](https://cdcgov.github.io/Rnssp-rmd-templates/changelogs/#essence-chief-complaint-and-discharge-diagnosis-categories-template-essence_ccdd)
 
 *For questions, ideas for improvement/collaboration, or attribution, please submit an issue [here](https://github.com/CDCgov/Rnssp-rmd-templates/issues).*
 
