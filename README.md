@@ -1,3 +1,5 @@
+[![github pages](https://github.com/CDCgov/Rnssp-templates-docs/actions/workflows/gh-pages.yaml/badge.svg)](https://github.com/CDCgov/Rnssp-templates-docs/actions/workflows/gh-pages.yaml)
+
 # Rnssp-templates-docs
 Online Documentation for Rnssp R Markdown Templates
 
