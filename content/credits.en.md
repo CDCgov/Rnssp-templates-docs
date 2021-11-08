@@ -23,7 +23,7 @@ We would like to acknowledge the following persons for their support and contrib
 
 ## Tooling
 
-* [Netlify](https://www.netlify.com) - Continuous deployement and hosting of this documentation
+* [Netlify](https://www.netlify.com) - Continuous deployment and hosting of this documentation
 * [Hugo](https://gohugo.io/) - The world’s fastest framework for building websites
 * [Grav](https://getgrav.org/) - A Modern Flat-File Content Management System
 * [R](https://www.R-project.org/) - An Environment for Statistical Computing
