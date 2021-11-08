@@ -6,7 +6,7 @@ tags: ["credits", "contribute", "contributor", "developers", "ideas"]
 
 We would like to acknowledge the following persons for their support and contribution:
 
-## Online Documentation Design
+## Documentation Development
 
 * [Roseric Azondekon](https://github.com/rosericazondekon)
 
