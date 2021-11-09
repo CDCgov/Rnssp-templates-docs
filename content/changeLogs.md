@@ -127,3 +127,18 @@ The Syndrome Definition Evaluation template is available.
 
 This template allows ESSENCE users to evaluate the data details (line level) results of one, two, or three syndrome definitions at a time.
 {{% /expand%}}
+
+<hr>
+
+## Word Alerts Report template (`word_alerts`)
+
+
+{{%expand "11/9/2021" %}}
+The Word Alerts Report template is available.
+
+The Word Alerts Report template summarizes daily chief complaints and discharge diagnosis term alerts for a selected syndrome definition. 
+
+The purpose of the word alert algorithm is to seek anomalous chief complaints free text terms and discharge diagnosis codes relative to a 28-day sliding baseline. 
+
+The current implementation of word alerts in NSSP-ESSENCE is limited to data from the past 7 days. This template provides users the capability of running the word alert algorithm on any selected date range spanning up to 90 days.
+{{% /expand%}}
