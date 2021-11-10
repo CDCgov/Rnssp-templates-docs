@@ -33,15 +33,16 @@ This template (`ed_icd10_volume`) generates heatmaps of the top N ICD-10-CM code
 
 * NSSP Username: NSSP ESSENCE account username
 * NSSP Password: NSSP ESSENCE account password
-* Start Date: Automatically modified to the start date to be the first day of the MMWR week of the selected start date.
-* End Date: recommended to be at least 2 weeks prior to date of running the report to account for a lag in discharge diagnosis data. Automatically modified to be the last day of the MMWR week of the selected end date. 
-* Site: a participating site
-* Age group: can be one of the age classifications in Essence
-* Add unknown age: TRUE/FALSE option as to whether unknown age category should be considered. Default is FALSE.
-* Top N conditions to rank: default is 10
-* Avg Weekly Discharge Diagnosis Informative (DDI) Greater than or equal to: Threshold for facility level average weekly discharge diagnosis informative. Helps control for informativeness of the discharge diagnosis field. It is recommended to select an average weekly DDI of 75 or greater. If no value is entered the report will default to not filter facilities by this data quality metric.  
-* Coefficient of Variance (CoV HasBeenE) Less than or equal to: Threshold for the coefficient of variance (CoV) for ED visits. Helps control for total volume volatility for the selected time period. It is recommended to select a CoV of 40 or less. If no value is entered the report will default to not filter facilities by this data quality metric. 
-
+* Start Date: Start date 
+* End Date: End date. Recommended to be at least 2 weeks prior to date of running the report to account for a lag in discharge diagnosis data.
+* Site: Geographic region. Can be national, a DHHS region, or participating site. Automatically modified to be national. 
+* Site Facility: A Facility Level ESSENCE API with the facility of interest selected. Overwrites site parameter to run the report for a specific facility. 
+* Facility Name: Label the report with the facility name. 
+* Stratification Variable: Can be one of the age, sex, race, or ethnicity classifications in ESSENCE. 
+* Add Unknown: TRUE/FALSE option as to whether unknown or not reported categories should be considered. Default is FALSE.
+* Top N conditions to rank: Default is 10.
+* Avg Weekly Discharge Diagnosis Informative (DDI) Greater than or equal to: Threshold for facility level average weekly discharge diagnosis informative. Helps control for informativeness of the discharge diagnosis field. It is recommended to select an average weekly DDI of 75 or greater. If no value is entered the report will default to not filter facilities by this data quality metric. To remove the average weekly DDI filter enter 0.
+* Coefficient of Variance (CoV HasBeenE) Less than or equal to: Threshold for the coefficient of variance (CoV) for ED visits. Helps control for total volume volatility for the selected time period. It is recommended to select a CoV of 40 or less. If no value is entered the report will default to not filter facilities by this data quality metric. To remove the CoV HasBeenE filter enter 1000000. 
 
 ---
 ## Output
