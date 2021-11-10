@@ -24,9 +24,20 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/master'
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   if: github.ref == 'refs/heads/master'
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./public
+      
+      - name: Push generated doc to Rnssp-rmd-templates
+        uses: nkoppel/push-files-to-another-repository@v1.1.0
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          source-files: 'public/'
+          destination-username: 'rosericazondekon'
+          destination-repository: 'cdcgov.github.io'
+          destination-directory: 'Rnssp-rmd-templates/docs'
+          commit-email: 'roseric_2000@yahoo.fr'
