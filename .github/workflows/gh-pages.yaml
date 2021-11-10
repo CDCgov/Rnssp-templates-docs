@@ -37,7 +37,8 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source-files: 'public/'
-          destination-username: 'rosericazondekon'
-          destination-repository: 'cdcgov.github.io'
-          destination-directory: 'Rnssp-rmd-templates/docs'
+          destination-username: 'cdcgov'
+          destination-repository: 'Rnssp-rmd-templates'
+          destination-directory: 'docs'
           commit-email: 'roseric_2000@yahoo.fr'
+          
