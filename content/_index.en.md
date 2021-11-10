@@ -6,9 +6,9 @@ tags: ["intro", "help", "home", "Rnssp"]
 
 # Rnssp R Markdown Templates
 
-The [Rnssp R Markdown Templates](https://github.com/CDCgov/Rnssp-rmd-templates) is a catalog of R Markdown templates developed by the developers of the [Rnssp R package](https://cdcgov.github.io/Rnssp/) in collaboration with the members of the [Community of Practice (CoP)](https://nsspcommunityofpractice.org/) of the [National Syndromic Surveillance Program (NSSP)](https://www.cdc.gov/nssp/index.html). 
+The [Rnssp R Markdown Templates](https://github.com/CDCgov/Rnssp-rmd-templates) is a catalog of R Markdown templates created by the developers of the [Rnssp R package](https://cdcgov.github.io/Rnssp/) in collaboration with the members of the [Community of Practice (CoP)](https://nsspcommunityofpractice.org/) of the [National Syndromic Surveillance Program (NSSP)](https://www.cdc.gov/nssp/index.html). 
 
-Our goal is to provide a wide collection of report templates accessible and easily distributable via the [Rnssp R package](https://cdcgov.github.io/Rnssp/) package. 
+Our goal is to provide a wide collection of report templates accessible and easily distributable via the [Rnssp R package](https://cdcgov.github.io/Rnssp/). 
 
 This Online Documentation serves as a repository and support material to the [CoP](https://nsspcommunityofpractice.org/) members of the [NSSP](https://www.cdc.gov/nssp/index.html). In this documentation, we provide:
 
