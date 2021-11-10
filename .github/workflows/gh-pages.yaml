@@ -36,7 +36,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-files: 'public/'
+          source-files: 'public/*'
           destination-username: 'cdcgov'
           destination-repository: 'Rnssp-rmd-templates'
           destination-directory: 'docs'
