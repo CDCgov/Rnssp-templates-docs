@@ -1,5 +1,5 @@
 ---
-disableToc: true
+disableToc: false
 title: Change Logs
 tags: ["news", "update", "logs", "change"] 
 ---

@@ -1,5 +1,5 @@
 ---
-disableToc: true
+disableToc: false
 title: Word Alerts Report
 weight: 30
 tags: ["word", "alerts", "chief complaint", "discharge diagnosis", "algorithm", "CCQV", "datamart", "nssp", "essence", "template"] 

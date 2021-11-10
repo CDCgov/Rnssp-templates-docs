@@ -1,4 +1,5 @@
 ---
+disableToc: true
 title: List available templates
 weight: 15
 tags: ["load", "library", "list", "template", "demo"] 

@@ -1,5 +1,5 @@
 ---
-disableToc: true
+disableToc: false
 title: Credits
 tags: ["credits", "contribute", "contributor", "developers", "ideas"] 
 ---

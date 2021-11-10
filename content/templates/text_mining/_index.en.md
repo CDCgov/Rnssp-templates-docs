@@ -1,5 +1,5 @@
 ---
-disableToc: true
+disableToc: false
 title: Text Analysis Dashboard
 weight: 10
 tags: ["text", "analysis", "dashboard", "mining", "nssp", "essence", "template"] 

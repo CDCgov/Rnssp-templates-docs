@@ -1,4 +1,5 @@
 ---
+disableToc: true
 title: Remove a template
 weight: 30
 tags: ["remove", "template", "demo"] 

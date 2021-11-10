@@ -1,4 +1,5 @@
 ---
+disableToc: true
 title: Add a template
 weight: 20
 tags: ["add", "template", "demo"] 

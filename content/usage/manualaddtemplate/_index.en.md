@@ -1,4 +1,5 @@
 ---
+disableToc: true
 title: Manually add a template
 weight: 25
 tags: ["manually", "add", "template", "demo"] 
