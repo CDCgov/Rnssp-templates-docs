@@ -13,9 +13,9 @@
   </url><url>
     <loc>https://cdcgov.github.io/Rnssp-rmd-templates/usage/requirements/</loc>
   </url><url>
-    <loc>https://cdcgov.github.io/Rnssp-rmd-templates/templates/text_mining/</loc>
+    <loc>https://cdcgov.github.io/Rnssp-rmd-templates/templates/textmining/</loc>
   </url><url>
-    <loc>https://cdcgov.github.io/Rnssp-rmd-templates/templates/essence_ccdd/</loc>
+    <loc>https://cdcgov.github.io/Rnssp-rmd-templates/templates/essenceccdd/</loc>
   </url><url>
     <loc>https://cdcgov.github.io/Rnssp-rmd-templates/usage/listtemplates/</loc>
   </url><url>
@@ -29,7 +29,7 @@
   </url><url>
     <loc>https://cdcgov.github.io/Rnssp-rmd-templates/usage/removetemplate/</loc>
   </url><url>
-    <loc>https://cdcgov.github.io/Rnssp-rmd-templates/templates/word_alerts/</loc>
+    <loc>https://cdcgov.github.io/Rnssp-rmd-templates/templates/wordalerts/</loc>
   </url><url>
     <loc>https://cdcgov.github.io/Rnssp-rmd-templates/post/</loc>
     <lastmod>2021-11-06T00:00:00+00:00</lastmod>
