@@ -56,6 +56,7 @@ This HTML report includes interactive visualizations and tables that accommodate
 * Data source: CCQV Datamart Backup (NSSP User Only!) or Facility Location (Full Details – Site-level User Only!)
 * Site: Limit to Site (only if using full details for site-level users)
 * Definition: currently includes all existing syndromes, subsyndromes, and CCDD categories available in NSSP-ESSENCE
+* Has Been Emergency: option to limit data where HasBeenE = Yes (only if using full details for site-level users)
 * Document Title: Custom title for HTML output
 
 
