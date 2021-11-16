@@ -36,8 +36,8 @@ This template (`ed_icd10_volume`) generates heatmaps of the top N ICD-10-CM code
 * Start Date: Start date 
 * End Date: Recommended to be at least 2 weeks prior to date of running the report to account for a lag in discharge diagnosis data.
 * Site: Geographic region, can be national, a DHHS region, or participating site. Automatically modified to be national. 
-* Site Facility: A Facility Level ESSENCE API with the facility of interest selected. Overwrites site parameter to run the report for a specific facility. 
-* Facility Name: Label the report with the facility name. 
+* Site Facility: A Facility Level ESSENCE API with the facility or facilities of interest selected. Overwrites site parameter to run the report for a specific facility. 
+* Facility Name: Label the report with the facility name(s). 
 * Stratification Variable: Can be one of the age, sex, race, or ethnicity classifications in ESSENCE. 
 * Add Unknown: TRUE/FALSE option as to whether unknown or not reported categories should be considered. Default is FALSE.
 * Top N conditions to rank: Default is 10.
