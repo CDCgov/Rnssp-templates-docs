@@ -5,7 +5,7 @@ weight: 10
 tags: ["requirements", "R", "Rstudio", "demo", "IDE"] 
 ---
 
-For a pleasant experience with the Rnssp R Markdown templates, users' system requirements must satisfied the following requirements:
+For a pleasant experience with the Rnssp R Markdown templates, users' system requirements must satisfy the following requirements:
 
 * Proper installation and configuration of [R (>= 3.6.0)](https://www.R-project.org/)
 * Proper installation and configuration of an [RStudio](https://www.rstudio.com/products/rstudio/download/) Integrated Development Environment
@@ -25,7 +25,7 @@ or
 remotes::install_github("cdcgov/Rnssp") # remotes::install_github("cdcgov/Rnssp", force = TRUE)
 ```
 
-Down below, is a live demonstration with the [devtools](https://devtools.r-lib.org/) R package.
+Shown below is a demo of the installation of the [Rnssp R package](https://cdcgov.github.io/Rnssp) using the [devtools](https://devtools.r-lib.org/) R package.
 
 
 ![Magic](images/install_Rnssp.gif?classes=shadow)

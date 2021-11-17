@@ -1,5 +1,5 @@
 ---
-title: Essence CCDD Categories
+title: ESSENCE CCDD Categories
 weight: 15
 tags: ["chief complaint", "discharge diagnosis", "essence", "nssp", "template"] 
 ---

@@ -8,7 +8,7 @@ weight: 5
 
 # Usage
 
-Learn how to dynamically extend your existing Rnssp installation with Rnssp RMD templates.
+Learn how to dynamically extend your existing Rnssp installation with Rnssp R Markdown templates.
 
 
 {{% children style="h5"  %}}

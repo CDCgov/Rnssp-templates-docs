@@ -6,28 +6,28 @@ tags: ["intro", "help", "home", "Rnssp"]
 
 # Rnssp R Markdown Templates
 
-The [Rnssp R Markdown Templates](https://github.com/CDCgov/Rnssp-rmd-templates) is a catalog of R Markdown templates created by the developers of the [Rnssp R package](https://cdcgov.github.io/Rnssp/) in collaboration with the members of the [Community of Practice (CoP)](https://nsspcommunityofpractice.org/) of the [National Syndromic Surveillance Program (NSSP)](https://www.cdc.gov/nssp/index.html). 
+This catalog of [Rnssp R Markdown Templates](https://github.com/CDCgov/Rnssp-rmd-templates) has been created by the developers of the [Rnssp R package](https://cdcgov.github.io/Rnssp/) in collaboration with the members of the [Community of Practice (CoP)](https://nsspcommunityofpractice.org/) in collaboration with members of the [National Syndromic Surveillance Program (NSSP)](https://www.cdc.gov/nssp/index.html). 
 
-Our goal is to provide a wide collection of report templates accessible and easily distributable via the [Rnssp R package](https://cdcgov.github.io/Rnssp/). 
+Our goal is to make a wide collection of report templates accessible and easily distributable via the [Rnssp R package](https://cdcgov.github.io/Rnssp/). 
 
-This Online Documentation serves as a repository and support material to the [CoP](https://nsspcommunityofpractice.org/) members of the [NSSP](https://www.cdc.gov/nssp/index.html). In this documentation, we provide:
+This online documentation serves as a repository of support material for NSSP [NSSP](https://www.cdc.gov/nssp/index.html). members. This documentation provides:
 
-* instructions on how to add, use and remove a template from an existing Rnssp R package installation
-* detailed description of each template
-* blog posts on various topics related to R Markdown templates
-* promote team collaboration and outreach
+* instructions on how to add, use, and remove a template from an existing Rnssp R package installation;
+* detailed description of each template; and
+* blog posts on various topics related to R Markdown templates.
 
+Importantly, the documentation promotes collaboration and encourages outreach.
 
-{{% notice note %}}To use any of the Rnssp R Markdown Templates, please install the  [Rnssp R package](https://cdcgov.github.io/Rnssp/) first.
+{{% notice note %}}To use the Rnssp R Markdown Templates, please install the [Rnssp R package](https://cdcgov.github.io/Rnssp/) first.
 {{% /notice %}}
 
 ## Contributing to this Documentation
 
-Should you want to contribute to this project, submit a request to gazondekon@cdc.gov.
+To contribute to this project, please submit a request to gazondekon@cdc.gov.
 
 ## Getting Help
 
-If you encounter a bug using any of the templates, please consider emailing the author at gazondekon@cdc.gov and/or file [an issue](https://github.com/CDCgov/Rnssp-rmd-templates/issues) with a minimal reproducible example.
+If you encounter a bug using the templates, we encourage you to email the author at gazondekon@cdc.gov or file [an issue](https://github.com/CDCgov/Rnssp-rmd-templates/issues). Include a reproducible example.
 
 ## Public Domain Standard Notice
 This repository constitutes a work of the United States Government and is not
@@ -47,13 +47,13 @@ the terms of the Apache Software License version 2, or (at your option) any
 later version.
 
 This source code in this repository is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+WARRANTY, without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 PARTICULAR PURPOSE. See the Apache Software License for more details.
 
 You should have received a copy of the Apache Software License along with this
 program. If not, see http://www.apache.org/licenses/LICENSE-2.0.html
 
-The source code forked from other open source projects will inherit its license.
+The source code forked from other open-source projects will inherit its license.
 
 ## Privacy Standard Notice
 This repository contains only non-sensitive, publicly available data and
@@ -63,7 +63,7 @@ and [Code of Conduct](https://github.com/CDCgov/template/blob/master/code-of-con
 For more information about CDC's privacy policy, please visit [http://www.cdc.gov/other/privacy.html](https://www.cdc.gov/other/privacy.html).
 
 ## Contributing Standard Notice
-Anyone is encouraged to contribute to the repository by [forking](https://help.github.com/articles/fork-a-repo)
+Everyone is encouraged to contribute to the repository by [forking](https://help.github.com/articles/fork-a-repo)
 and submitting a pull request. (If you are new to GitHub, you might start with a
 [basic tutorial](https://help.github.com/articles/set-up-git).) By contributing
 to this project, you grant a world-wide, royalty-free, perpetual, irrevocable,
