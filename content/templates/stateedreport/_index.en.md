@@ -68,7 +68,7 @@ Rnssp::add_rmd_template(template_name = "state_ed_report")
 
 ```r
 # Remove `state_ed_report` from my existing Rnssp installation
-Rnssp::remove_rmd_template(template_name = "state_ed_report")
+Rnssp::remove_rmd_template("state_ed_report")
 ```
 
 ---

@@ -53,7 +53,7 @@ Rnssp::add_rmd_template(template_name = "text_mining")
 
 ```r
 # Remove `text_mining` from my existing Rnssp installation
-Rnssp::remove_rmd_template(template_name = "text_mining")
+Rnssp::remove_rmd_template("text_mining")
 ```
 
 ---

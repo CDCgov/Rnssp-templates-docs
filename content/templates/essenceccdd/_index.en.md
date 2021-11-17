@@ -60,7 +60,7 @@ Rnssp::add_rmd_template(template_name = "essence_ccdd")
 
 ```r
 # Remove `essence_ccdd` from my existing Rnssp installation
-Rnssp::remove_rmd_template(template_name = "essence_ccdd")
+Rnssp::remove_rmd_template("essence_ccdd")
 ```
 
 ---

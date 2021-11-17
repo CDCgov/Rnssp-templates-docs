@@ -77,7 +77,7 @@ Rnssp::add_rmd_template(template_name = "word_alerts")
 
 ```r
 # Remove `word_alerts` from my existing Rnssp installation
-Rnssp::remove_rmd_template(template_name = "word_alerts")
+Rnssp::remove_rmd_template("word_alerts")
 ```
 
 ---

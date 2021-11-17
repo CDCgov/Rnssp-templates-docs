@@ -61,7 +61,7 @@ Rnssp::add_rmd_template(template_name = "ed_icd10_volume")
 
 ```r
 # Remove `ed_icd10_volume` from my existing Rnssp installation
-Rnssp::remove_rmd_template(template_name = "ed_icd10_volume")
+Rnssp::remove_rmd_template("ed_icd10_volume")
 ```
 
 ---

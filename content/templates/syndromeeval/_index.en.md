@@ -63,7 +63,7 @@ Rnssp::add_rmd_template(template_name = "syndrome_eval")
 
 ```r
 # Remove `syndrome_eval` from my existing Rnssp installation
-Rnssp::remove_rmd_template(template_name = "syndrome_eval")
+Rnssp::remove_rmd_template("syndrome_eval")
 ```
 
 ---
