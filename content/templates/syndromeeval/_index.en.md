@@ -28,19 +28,19 @@ The syndrome definition evaluation template generates:
 
 * A table summarizing individual definition information by syndrome definition
 * An interactive visualization comparing visits by syndrome definition over time
-* A comparative bar chart of the total number of visits identified by all syndrome definitions combined
-* A summary table of the number and percent of all identified visits captured by each observed combination of definitions
-* A Venn diagram, an Euler diagram and an upset plot as visual representations of the umber of all identified visits captured by each observed combination of definitions
-* Summary plots of the top 5 occurring terms for each definition and each field of interest
+* A comparative bar chart of total visits identified by all syndrome definitions combined
+* A summary table of the number and percent of identified visits captured by each observed combination of definitions
+* A Venn diagram, an Euler diagram, and an upset plot as visual representations of the number of identified visits captured by each observed combination of definitions
+* Summary plots of the top five occurring terms for each definition and each field of interest
 
 ---
 ## User Inputs
 
 * NSSP Username: NSSP ESSENCE account username
 * NSSP Password: NSSP ESSENCE account password
-* Site: a participating site
-* Start Date: Automatically modified to the start date to be the first day of the MMWR week of the selected start date.
-* End Date: recommended to be at least 2 weeks prior to date of running the report to account for a lag in discharge diagnosis data. Automatically modified to be the last day of the MMWR week of the selected end date. 
+* Site: A participating site
+* Start Date: Automatically modified to be the first day of the MMWR week of the selected start date
+* End Date: Recommended to be at least 2 weeks prior to date of running the report to account for a lag in discharge diagnosis data. Automatically modified to be the last day of the MMWR week of the selected end date. 
 * Has been Emergency: TRUE/FALSE option for limiting to emergency department visits
 * CCDD Category (Up to 3): When more than 3 are supplied, only the first 3 are considered by the template
 * A title for the report
