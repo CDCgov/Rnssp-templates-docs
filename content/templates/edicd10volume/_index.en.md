@@ -24,7 +24,7 @@ create_dir: true
 
 This template (`ed_icd10_volume`) generates heatmaps of the top N ICD-10-CM codes by ICD-10-CM chapter, ICD-10-CM section, ICD-10-CM diagnosis code, and the corresponding clinical classifications software refined (CCSR) category. The user is able to select the geographic region of interest, time frame, data quality filters, and ESSENCE age group category.
 
-**ICD-10-CM Chapters, Sections, and Codes**: The International Classification of Diseases, Tenth Revision, Clinical Modification (ICD-10-CM) classifies over 70,000 diagnosis codes into chapters and sections. ESSENCE uses the first three characters (e.g. A00 or J21) into one of 22 chapters, 284 sections, and 1,911 diagnosis code categories. More information on ICD-10-CM can be found [here](https://www.icd10data.com/).
+**ICD-10-CM Chapters, Sections, and Codes**: The *International Classification of Diseases, Tenth Revision, Clinical Modification* (ICD-10-CM) classifies over 70,000 diagnosis codes into chapters and sections. ESSENCE uses the first three characters (e.g., A00 or J21) into 1 of 22 chapters, 284 sections, and 1,911 diagnosis code categories. More information on ICD-10-CM can be found [here](https://www.icd10data.com/).
 
 **CCSR Diagnostic Categories**: The Healthcare Cost and Utilization Project (HCUP) Clinical Classifications Software Refined (CCSR) aggregates over 70,000 ICD-10-CM diagnosis codes into 530 meaningful diagnostic categories. More information on the CCSR and mapping schema can be found [here](https://www.hcup-us.ahrq.gov/toolssoftware/ccsr/ccs_refined.jsp).
 
@@ -35,14 +35,14 @@ This template (`ed_icd10_volume`) generates heatmaps of the top N ICD-10-CM code
 * NSSP Password: NSSP ESSENCE account password
 * Start Date: Start date 
 * End Date: Recommended to be at least 2 weeks prior to date of running the report to account for a lag in discharge diagnosis data.
-* Site: Geographic region, can be national, a DHHS region, or participating site. Automatically modified to be national. 
+* Site: Geographic region, can be national, a Department of Health and Human Services (DHHS) region, or participating site. Automatically defaults to national data. 
 * Site Facility: A Facility Level ESSENCE API with the facility or facilities of interest selected. Overwrites site parameter to run the report for a specific facility. 
 * Facility Name: Label the report with the facility name(s). 
 * Stratification Variable: Can be one of the age, sex, race, or ethnicity classifications in ESSENCE. 
-* Add Unknown: TRUE/FALSE option as to whether unknown or not reported categories should be considered. Default is FALSE.
+* Add Unknown: TRUE/FALSE option as to whether Unknown or Not Reported categories should be considered. Default is FALSE.
 * Top N conditions to rank: Default is 10.
-* Avg Weekly Discharge Diagnosis Informative (DDI) Greater than or equal to: Threshold for facility level average weekly discharge diagnosis informative. Helps control for informativeness of the discharge diagnosis field. It is recommended to select an average weekly DDI of 75 or greater. If no value is entered the report will default to not filter facilities by this data quality metric. To remove the average weekly DDI filter enter 0.
-* Coefficient of Variance (CoV HasBeenE) Less than or equal to: Threshold for the coefficient of variance (CoV) for ED visits. Helps control for total volume volatility for the selected time period. It is recommended to select a CoV of 40 or less. If no value is entered the report will default to not filter facilities by this data quality metric. To remove the CoV HasBeenE filter enter 1000000. 
+* Avg Weekly Discharge Diagnosis Informative (DDI) Greater than or equal to: Threshold for facility level average weekly discharge diagnosis informative. Helps control for informativeness of the discharge diagnosis field. It is recommended to select an average weekly DDI of 75 or greater. If no value is entered, the report will default to not filter facilities by this data quality metric. To remove the average weekly DDI filter, enter 0.
+* Coefficient of Variance (CoV HasBeenE) Less than or equal to: Threshold for the coefficient of variance (CoV) for ED visits. Helps control for total volume volatility for the selected time period. It is recommended to select a CoV of 40 or less. If no value is entered the report will default to not filter facilities by this data quality metric. To remove the CoV HasBeenE filter, enter 1000000. 
 
 ---
 ## Output
