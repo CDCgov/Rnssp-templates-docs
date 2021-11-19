@@ -26,10 +26,10 @@ This template (`essence_ccdd`) generates a trend report of Chief Complaint and D
 
 This template depicts Essence CCDD categories by count of visits and percentage of visits, stratified by year. 
 
-Emergency department visits are categorized via free text queries on the chief complaint and discharge diagnosis fields, and reporting varies at a facility level. To ensure enough information are consistently provided to NSSP ESSENCE for categorization, facilities are included if they met the following standards:
+Emergency department visits are categorized via free-text queries of the chief complaint and discharge diagnosis fields. The availability and informativeness of these fields varies at a facility level. To ensure enough information is consistently provided to NSSP-ESSENCE for categorization, facilities are included if they met the following standards:
 
-* ***Average Weekly Discharge Diagnosis Informative Percent (DDI%)*** A measure of how informative the information in the discharge diagnosis fields are over time. The DDI\% is used to control for the quality of the discharge diagnosis field. Facilities were included in the report if they had a DDI greater than or equal to 75% over the past two years.
-* ***Data Quality Coefficient of Variation (CoV)*** A measure of total volume volatility over time. The CoV is used to control for onboarding of new facilities over the time period of interest. Facilities are included if they had a COV less than or equal to 40 over the past two years.
+* ***Average Weekly Discharge Diagnosis Informative Percent (DDI%)*** - A measure of how informative the information in the discharge diagnosis fields are over time. The DDI\% is used to control for the quality of the discharge diagnosis field. Facilities were included in the report if they had a DDI greater than or equal to 75% over the past two years.
+* ***Data Quality Coefficient of Variation (CoV)*** - A measure of total volume volatility over time. The CoV is used to control for onboarding of new facilities over the time period of interest. Facilities are included if they had a COV less than or equal to 40 over the past two years.
 
 ---
 ## User Inputs
