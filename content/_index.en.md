@@ -10,7 +10,7 @@ This catalog of [Rnssp R Markdown Templates](https://github.com/CDCgov/Rnssp-rmd
 
 Our goal is to make a wide collection of report templates accessible and easily distributable via the [Rnssp R package](https://cdcgov.github.io/Rnssp/). 
 
-This online documentation serves as a repository of support material for NSSP [NSSP](https://www.cdc.gov/nssp/index.html). members. This documentation provides:
+This online documentation serves as a repository of support material for [NSSP](https://www.cdc.gov/nssp/index.html) members. This documentation provides:
 
 * instructions on how to add, use, and remove a template from an existing Rnssp R package installation;
 * detailed description of each template; and
