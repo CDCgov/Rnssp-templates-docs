@@ -6,7 +6,7 @@ Online Documentation for Rnssp R Markdown Templates
 ## Build this documentation
 
 ```r
-# load the blogdown package
+# Load the blogdown package
 library(blogdown)
 
 # Build documentation website
