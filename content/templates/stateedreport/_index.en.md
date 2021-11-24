@@ -18,38 +18,24 @@ create_dir: true
 ---
 ## Detailed Description
 
-The state emergency department report template (`state_ed_report`) summarizes trend classification and ESSENCE alerting for the CCDD categories at the state and county level. All trends are reported as percent of daily emergency department visits.
+The state emergency department report template (`state_ed_report`) summarizes trend classification and ESSENCE alerting for the CCDD categories at the state and county level. Users can select percentages, counts, or percentages and counts for state and county-level time series. By default, trends are reported as a percent of daily emergency department visits. 
 
-To classify all trends over time, this template fits windowed regression models to moving day baselines where the statistic and p-value resulting from the statistical test are used to define the last day of the baseline as significantly increasing, significantly decreasing, not significant with positive slope, or not significant with negative slope. 
+To classify trends over time, this template applies penalized least squares smoothing splines to time series of percentages and Poisson generalized additive models to time series of counts. The slopes of the smoothed data are used to classify daily trajectory statuses into categories of increase, stable, or decrease. Slopes greater than a pre-defined slope cut point of 0.01 are classified as increasing, while slopes less than -0.01 are classified as decreasing. Slopes with an absolute value less than or equal to 0.01 are classified as stable. This method is best suited for classification of county-level time series with higher variability in day-to-day trends. 
 
-To match the current NSSP-ESSENCE implementation of trend classification, binomial regression models are used for time series of percentages, while linear regression models are used for time series of counts. 
+If you're pulling current data, use a 3-day lag. This best practice prevents lower counts associated with lags in receiving data from biasing the most recent classification. 
 
-If recent data are pulled, it is best practice to use a 3 day lag to prevent lower counts associated with lags in receiving data from biasing the most recent classification. The significance threshold for p-values is set to 0.01, where trend classification is specified as follows: 
+To identify stratifications with recent and anomalous increases in syndromic activity, ESSENCE alerting is overlaid on the time series for each county and CCDD category. These alerts correspond to ESSENCE\'s default alerting algorithm, Poisson/EWMA/Regression Switch, with alerting thresholds 0.05 (<span style="color:#BF8F00;font-weight:bold">yellow</span>) and 0.01 (<span style="red;font-weight:bold">red</span>). 
 
-  **Significantly Increasing:** Time term in model is positive and p-value < 0.01
-  
-  **Significantly Decreasing:** Time term in model is negative and p-value < 0.01 
-  
-  **Not Significant, Positive Slope:** Time term in model is positive and p-value >= 0.01 
-  
-  **Not Significant, Negative Slope:** Time term in model is negative and p-value >= 0.01 
-  
-Note that in instances where the number of encounters for a category in the 12-day time window is less than 10, a model is not fit in order to prevent convergence errors from `glm` and `lm`. In those instances, the trend is classified as **Less than 10 Encounters or Not Reporting**. 
-
-To improve identification of stratifications with recent and anomalous increases in syndromic activity, ESSENCE alerting is overlaid on the percentage trends for each county and CCDD category. These alerts correspond to ESSENCE\'s default alerting algorithm, Poisson/EWMA/Regression Switch, with alerting thresholds 0.05 (yellow) and 0.01 (red). 
-
-Daily stratified alerting indicators and statistics are pulled along with the percentages, numerators, and denominators from the time series data table API (new to ESSENCE as of July 2020).
+Daily stratified alerting indicators and statistics are pulled along with the percentages, numerators, and denominators from the time series data table application programming interface (API).
 
 ---
 ## User Inputs
 
-* AMC username and password (securely encrypted)
-* State (data are pulled by hospital state from the Facility Location (Full Details) data source)
-* CCDD Categories - currently includes all existing CCDD Categories available in ESSENCE. Users may select as many categories as they choose. The default categories are CLI CC with CLI DD and Coronavirus DD v1, CDC Pneumonia CCDD v1, and CDC COVID-Specific DD v1.
-* Start and end date of query
-* Time series type - percentages, counts, or percentages *and* counts (default)
-* Guard band - number of days the date in consideration is separated from the baseline (default is 3)
-* Days Before - length of baseline - 1 (default is 12 - 1 = 11)
+* Access and Magagement Center (AMC) username and password (securely encrypted)
+* State (data are pulled by hospital state from the Facility Location \[Full Details\] data source
+* CCDD Categories — currently includes all CCDD categories available in ESSENCE. Users may select as many categories as they want. The default categories are CLI CC with CLI DD and Coronavirus DD v1, CDC Pneumonia CCDD v1, and CDC COVID-Specific DD v1.
+* Query start and end dates
+* Time series type — percentages (default), counts, or percentages *and* counts
 
 ---
 ## Output
