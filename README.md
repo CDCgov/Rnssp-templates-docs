@@ -9,6 +9,9 @@ Online Documentation for Rnssp R Markdown Templates
 # Load the blogdown package
 library(blogdown)
 
+# Install hugo if necessary
+install_hugo() # Run this line only once
+
 # Build documentation website
 build_site()
 ```
