@@ -128,14 +128,21 @@ This template explores the top N categories by volume for the new ICD Chapter, S
 
 ## Syndrome Definition Evaluation template (`syndrome_eval`)
 
-{{%expand "3/11/2021" %}}
+{{%expand "1/6/2022" %}}
+
+The Syndrome Definition Evaluation template has been updated.
+
+This update adds a functionality to perform the data pull by chunks of one day.
+{{% /expand%}}
+
+{{%expand "11/3/2021" %}}
 
 The Syndrome Definition Evaluation template has been updated.
 
 This critical update fixes an issue related to API URLs being ill-constructed when syndromes or subsyndromes are selected.
 {{% /expand%}}
 
-{{%expand "1/11/2021" %}}
+{{%expand "11/1/2021" %}}
 
 The Syndrome Definition Evaluation template has been updated for performance and efficiency. It contains:
 
