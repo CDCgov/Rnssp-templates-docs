@@ -132,7 +132,7 @@ This template explores the top N categories by volume for the new ICD Chapter, S
 
 The Syndrome Definition Evaluation template has been updated.
 
-This update adds a functionality to perform the data pull by chunks of one day.
+This update adds a functionality to perform the data pulls by chunks of one day.
 {{% /expand%}}
 
 {{%expand "11/3/2021" %}}
