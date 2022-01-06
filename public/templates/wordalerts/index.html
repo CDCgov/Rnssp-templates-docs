@@ -24,22 +24,22 @@ if (!doNotTrack) {
     <title>Word Alerts Report :: Documentation for Rnssp R Markdown Templates</title>
 
     
-    <link href="/Rnssp-rmd-templates/css/nucleus.css?1636699183" rel="stylesheet">
-    <link href="/Rnssp-rmd-templates/css/fontawesome-all.min.css?1636699183" rel="stylesheet">
-    <link href="/Rnssp-rmd-templates/css/hybrid.css?1636699183" rel="stylesheet">
-    <link href="/Rnssp-rmd-templates/css/featherlight.min.css?1636699183" rel="stylesheet">
-    <link href="/Rnssp-rmd-templates/css/perfect-scrollbar.min.css?1636699183" rel="stylesheet">
-    <link href="/Rnssp-rmd-templates/css/auto-complete.css?1636699183" rel="stylesheet">
-    <link href="/Rnssp-rmd-templates/css/atom-one-dark-reasonable.css?1636699183" rel="stylesheet">
-    <link href="/Rnssp-rmd-templates/css/theme.css?1636699183" rel="stylesheet">
-    <link href="/Rnssp-rmd-templates/css/tabs.css?1636699183" rel="stylesheet">
-    <link href="/Rnssp-rmd-templates/css/hugo-theme.css?1636699183" rel="stylesheet">
+    <link href="/Rnssp-rmd-templates/css/nucleus.css?1641497499" rel="stylesheet">
+    <link href="/Rnssp-rmd-templates/css/fontawesome-all.min.css?1641497499" rel="stylesheet">
+    <link href="/Rnssp-rmd-templates/css/hybrid.css?1641497499" rel="stylesheet">
+    <link href="/Rnssp-rmd-templates/css/featherlight.min.css?1641497499" rel="stylesheet">
+    <link href="/Rnssp-rmd-templates/css/perfect-scrollbar.min.css?1641497499" rel="stylesheet">
+    <link href="/Rnssp-rmd-templates/css/auto-complete.css?1641497499" rel="stylesheet">
+    <link href="/Rnssp-rmd-templates/css/atom-one-dark-reasonable.css?1641497499" rel="stylesheet">
+    <link href="/Rnssp-rmd-templates/css/theme.css?1641497499" rel="stylesheet">
+    <link href="/Rnssp-rmd-templates/css/tabs.css?1641497499" rel="stylesheet">
+    <link href="/Rnssp-rmd-templates/css/hugo-theme.css?1641497499" rel="stylesheet">
     
-    <link href="/Rnssp-rmd-templates/css/theme-blue.css?1636699183" rel="stylesheet">
+    <link href="/Rnssp-rmd-templates/css/theme-blue.css?1641497499" rel="stylesheet">
     
     
 
-    <script src="/Rnssp-rmd-templates/js/jquery-3.3.1.min.js?1636699183"></script>
+    <script src="/Rnssp-rmd-templates/js/jquery-3.3.1.min.js?1641497499"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -74,14 +74,14 @@ if (!doNotTrack) {
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/Rnssp-rmd-templates/js/lunr.min.js?1636699183"></script>
-<script type="text/javascript" src="/Rnssp-rmd-templates/js/auto-complete.js?1636699183"></script>
+<script type="text/javascript" src="/Rnssp-rmd-templates/js/lunr.min.js?1641497499"></script>
+<script type="text/javascript" src="/Rnssp-rmd-templates/js/auto-complete.js?1641497499"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/cdcgov.github.io\/Rnssp-rmd-templates\/";
     
 </script>
-<script type="text/javascript" src="/Rnssp-rmd-templates/js/search.js?1636699183"></script>
+<script type="text/javascript" src="/Rnssp-rmd-templates/js/search.js?1641497499"></script>
 
     
   </div>
@@ -365,13 +365,13 @@ if (!doNotTrack) {
  
   
     
-    <li data-nav-id="/Rnssp-rmd-templates/templates/essenceccdd/" title="Essence CCDD Categories" class="dd-item
+    <li data-nav-id="/Rnssp-rmd-templates/templates/essenceccdd/" title="ESSENCE CCDD Categories" class="dd-item
         
         
         
         ">
       <a href="/Rnssp-rmd-templates/templates/essenceccdd/">
-          Essence CCDD Categories
+          ESSENCE CCDD Categories
           
             <i class="fas fa-check read-icon"></i>
           
@@ -661,7 +661,7 @@ if (!doNotTrack) {
     <li><a href="#detailed-description">Detailed Description</a></li>
     <li><a href="#description-of-word-alert-algorithm">Description of Word Alert Algorithm</a>
       <ul>
-        <li><a href="#two-by-two-contingency-table-for-abdominal-headache">Two by two contingency table for ABDOMINAL HEADACHE</a></li>
+        <li><a href="#two-by-two-contingency-table-for-abdominal-headache">Two-by-two contingency table for ABDOMINAL HEADACHE</a></li>
       </ul>
     </li>
     <li><a href="#pre-processing-of-chief-complaints-and-discharge-diagnoses">Pre-processing of Chief Complaints and Discharge Diagnoses</a></li>
@@ -732,12 +732,12 @@ if (!doNotTrack) {
 </code></pre></div><hr>
 <h2 id="detailed-description">Detailed Description</h2>
 <p>The Word Alerts Report template (<code>word_alerts</code>) summarizes daily chief complaints and discharge diagnosis term alerts for a selected syndrome definition.</p>
-<p>The purpose of the word alert algorithm is to seek anomalous chief complaints free text terms and discharge diagnosis codes relative to a 28-day sliding baseline.</p>
-<p>The current implementation of word alerts in NSSP-ESSENCE is limited to data from the past 7 days. This template provides users the capability of running the word alert algorithm on any selected date range spanning up to 90 days.</p>
+<p>The purpose of the word alert algorithm is to seek anomalous chief complaint free-text terms and discharge diagnosis codes relative to a 28-day sliding baseline.</p>
+<p>The current implementation of word alerts in NSSP-ESSENCE is limited to data from the past 7 days. This template lets users run the word alert algorithm on any selected date range spanning up to 90 days.</p>
 <hr>
 <h2 id="description-of-word-alert-algorithm">Description of Word Alert Algorithm</h2>
 <p>The ESSENCE word alert algorithm uses 28-day baselines over which unigram and bigram frequencies are computed. As with the univariate temporal anomaly detection algorithms, a 2-day guardband is used to separate the baseline and test date. For each term that occurred in the testing block (test date), contingency tables are formed to count the number of emergency department encounters with the term/code occurring in the chief complaint/discharge diagnosis and the number of emergency department encounters without the term/code in the chief complaint/discharge diagnosis for both the testing and baseline blocks.</p>
-<h3 id="two-by-two-contingency-table-for-abdominal-headache">Two by two contingency table for ABDOMINAL HEADACHE</h3>
+<h3 id="two-by-two-contingency-table-for-abdominal-headache">Two-by-two contingency table for ABDOMINAL HEADACHE</h3>
 <table>
 <thead>
 <tr>
@@ -759,21 +759,22 @@ if (!doNotTrack) {
 </tr>
 </tbody>
 </table>
-<p>To test for anomalous increases in term occurrence on the test date relative to the baseline, either Fisher’s Exact Test or a Chi-squared Test is applied. Fisher’s Exact Test is applied for moderate counts whereas a Chi-squared Test is applied for large counts. Terms are determined to have moderate counts if the number of visits in the baseline with the term is less than 1,000 or if the number of visits on the test date without the term is less than 1,000, i.e., min(B,C) &lt; 1,000. Unigrams and bigrams are considered anomalous if the resulting p-value is less than 0.001.</p>
+<p>To test for anomalous increases in term occurrence on the test date relative to the baseline, either Fisher’s Exact Test or a Chi-squared Test is applied. Fisher’s Exact Test is applied for moderate counts, whereas a Chi-squared Test is applied for large counts. Terms are determined to have moderate counts if the number of visits in the baseline with the term is less than 1,000 or if the number of visits on the test date without the term is less than 1,000, i.e., min(B,C) &lt; 1,000. Unigrams and bigrams are considered anomalous if the resulting p-value is less than 0.001.</p>
 <hr>
 <h2 id="pre-processing-of-chief-complaints-and-discharge-diagnoses">Pre-processing of Chief Complaints and Discharge Diagnoses</h2>
 <p>Pre-processing of chief complaint free text includes removal of punctuation, discharge diagnosis codes, uninformative patterns, medical processing terms, and common first names. Duplicate terms in the same chief complaint and discharge diagnosis are also removed. For discharge diagnosis bigrams, pairings of codes are arranged in alphanumeric order so that permutations of the same codes are not counted separately.</p>
 <hr>
 <h2 id="report-interactivity">Report Interactivity</h2>
-<p>This HTML report includes interactive visualizations and tables that accommodate hovering to display additional information. ICD-9 and ICD-10 code descriptions can be displayed by hovering over discharge diagnosis codes. Note that code descriptions for SNOMED codes are not currently available.</p>
+<p>This HTML report includes interactive visualizations and tables that accommodate hovering to display additional information. ICD-9 and ICD-10 code descriptions can be displayed by hovering over discharge diagnosis codes. Note that descriptions for SNOMED codes are not available.</p>
 <hr>
 <h2 id="user-inputs">User Inputs</h2>
 <ul>
-<li>AMC username and password (securely encrypted)</li>
-<li>Start and end date of query</li>
+<li>Access and Management Center (AMC) username and password (securely encrypted)</li>
+<li>Query start and end dates</li>
 <li>Data source: CCQV Datamart Backup (NSSP User Only!) or Facility Location (Full Details – Site-level User Only!)</li>
 <li>Site: Limit to Site (only if using full details for site-level users)</li>
-<li>Definition: currently includes all existing syndromes, subsyndromes, and CCDD categories available in NSSP-ESSENCE</li>
+<li>Definition: Includes all syndromes, subsyndromes, and CCDD categories available in NSSP-ESSENCE</li>
+<li>Has Been Emergency: Option to limit data where HasBeenE = Yes (only if using full details for site-level users)</li>
 <li>Document Title: Custom title for HTML output</li>
 </ul>
 <hr>
@@ -786,7 +787,7 @@ Rnssp<span style="color:#f92672">::</span><span style="color:#a6e22e">add_rmd_te
 </code></pre></div><hr>
 <h2 id="remove-this-template">Remove this template</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#75715e"># Remove `word_alerts` from my existing Rnssp installation</span>
-Rnssp<span style="color:#f92672">::</span><span style="color:#a6e22e">remove_rmd_template</span>(template_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;word_alerts&#34;</span>)
+Rnssp<span style="color:#f92672">::</span><span style="color:#a6e22e">remove_rmd_template</span>(<span style="color:#e6db74">&#34;word_alerts&#34;</span>)
 </code></pre></div><hr>
 <p><a href="https://cdcgov.github.io/Rnssp-rmd-templates/changelogs/#word-alerts-report-template-word_alerts"><strong>Latest Update!</strong></a></p>
 <p><em>For questions, ideas for improvement/collaboration, or attribution, please submit an issue <a href="https://github.com/CDCgov/Rnssp-rmd-templates/issues">here</a>.</em></p>
@@ -1116,16 +1117,16 @@ Rnssp<span style="color:#f92672">::</span><span style="color:#a6e22e">remove_rmd
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/Rnssp-rmd-templates/js/clipboard.min.js?1636699183"></script>
-    <script src="/Rnssp-rmd-templates/js/perfect-scrollbar.min.js?1636699183"></script>
-    <script src="/Rnssp-rmd-templates/js/perfect-scrollbar.jquery.min.js?1636699183"></script>
-    <script src="/Rnssp-rmd-templates/js/jquery.sticky.js?1636699183"></script>
-    <script src="/Rnssp-rmd-templates/js/featherlight.min.js?1636699183"></script>
-    <script src="/Rnssp-rmd-templates/js/highlight.pack.js?1636699183"></script>
+    <script src="/Rnssp-rmd-templates/js/clipboard.min.js?1641497499"></script>
+    <script src="/Rnssp-rmd-templates/js/perfect-scrollbar.min.js?1641497499"></script>
+    <script src="/Rnssp-rmd-templates/js/perfect-scrollbar.jquery.min.js?1641497499"></script>
+    <script src="/Rnssp-rmd-templates/js/jquery.sticky.js?1641497499"></script>
+    <script src="/Rnssp-rmd-templates/js/featherlight.min.js?1641497499"></script>
+    <script src="/Rnssp-rmd-templates/js/highlight.pack.js?1641497499"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/Rnssp-rmd-templates/js/modernizr.custom-3.6.0.js?1636699183"></script>
-    <script src="/Rnssp-rmd-templates/js/learn.js?1636699183"></script>
-    <script src="/Rnssp-rmd-templates/js/hugo-learn.js?1636699183"></script>
+    <script src="/Rnssp-rmd-templates/js/modernizr.custom-3.6.0.js?1641497499"></script>
+    <script src="/Rnssp-rmd-templates/js/learn.js?1641497499"></script>
+    <script src="/Rnssp-rmd-templates/js/hugo-learn.js?1641497499"></script>
     
         
             <script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script>

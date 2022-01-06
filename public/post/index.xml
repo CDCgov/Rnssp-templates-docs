@@ -13,8 +13,8 @@
       <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://cdcgov.github.io/Rnssp-rmd-templates/post/2021-11-06-knitting-with-parameters-using-the-knit-button-within-rstudio/</guid>
-      <description>First, start a new R Markdown file From Template as demonstrated below:Next, Knit the template With Parameters using the Knit button in your Rstudio IDE:References:Knitting with parameters
-</description>
+      <description>  First, start a new R Markdown file From Template as demonstrated below:  Next, Knit the template With Parameters using the Knit button in your Rstudio IDE:  References: Knitting with parameters
+ </description>
     </item>
     
   </channel>

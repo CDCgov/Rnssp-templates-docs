@@ -12,10 +12,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cdcgov.github.io/Rnssp-rmd-templates/usage/listtemplates/</guid>
-      <description>Rnssp R Markdown templates are being designed and released on a regular basis. All available templates can be explored on the publicly accessible Rnssp RMD templates Github repository.
-Luckily, the Rnssp R package provides various utility functions to easily manage templates. One of those utility functions is the Rnssp::list_templates() function.
+      <description>Rnssp R Markdown templates are being designed and released regularly. All available templates can be explored on the publicly accessible Rnssp RMD templates Github repository.
+The Rnssp R package provides various utility functions to easily manage templates. One of those utility functions is the Rnssp::list_templates() function.
 First, load the Rnssp R package:
-# Load the Rnssp package library(Rnssp) then, get the most recent list of the available packages:</description>
+# Load the Rnssp package library(Rnssp) Next, get the current list of available packages:
+# List all available templates list_templates() To get a tabular and more detailed view of the available templates, run:</description>
     </item>
     
   </channel>

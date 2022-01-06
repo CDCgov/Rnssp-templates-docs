@@ -12,11 +12,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://cdcgov.github.io/Rnssp-rmd-templates/changelogs/</guid>
-      <description>State Emergency Department template (state_ed_report)   6/8/2021   State Emergency Department template available.
-  Text Analysis Interactive Dashboard template (text_mining)   10/19/2021   The Text Mining template has been updated.
-This version contains a custom Query field that allows users to enter their own ESSENCE query.
-    9/29/2021   The Text Mining template has been updated. This version:
-  Prematurely exits the knit when bad User Credentials are entered.</description>
+      <description>State Emergency Department template (state_ed_report)   11/16/2021   The State Emergency Department template has been updated. This version has:
+  Modified algorithm for trajectory analysis to improve state and county-level trend classifications.
+  Improved figure sizing to accommodate the selection of many categories.
+  Improved time series visualizations, color palettes.
+  Added interactive sparklines to DT table, Improve table formatting.
+      6/8/2021   State Emergency Department template available.</description>
     </item>
     
   </channel>
