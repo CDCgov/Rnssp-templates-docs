@@ -34,7 +34,12 @@ Interactive widgets were produced with the [plotly](https://plotly.com/r/) and [
 * Query start and end dates
 * Has been Emergency: TRUE/FALSE option for limiting to emergency department visits 
 * Data source: options include the Chief Complaint Query Validation (CCQV) data source or Facility Location \[Full Details\]
+* Site: dropdown list of all sites reporting to the NSSP (applies only when using Facility Location \[Full Details\]
+* Age Groups: options include all existing ESSENCE age grouping systems
 * Syndrome definition: CCDD category, subsyndrome, or syndrome.
+* CCDD Query: option for custom chief complaint and discharge diagnosis free-text queries
+* Complex Query: option to paste in API URL for complex queries searching multiple fields
+* Title: custom title of Flexdashboard HTML output
 
 ---
 ## Output
