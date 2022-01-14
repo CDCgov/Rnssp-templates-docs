@@ -128,6 +128,13 @@ This template explores the top N categories by volume for the new ICD Chapter, S
 
 ## Syndrome Definition Evaluation template (`syndrome_eval`)
 
+{{%expand "1/14/2022" %}}
+
+The Syndrome Definition Evaluation template has been updated.
+
+This update allows the user to input up to three CCDD Free Text Queries.
+{{% /expand%}}
+
 {{%expand "1/6/2022" %}}
 
 The Syndrome Definition Evaluation template has been updated.
