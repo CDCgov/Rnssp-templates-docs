@@ -8,7 +8,7 @@ We would like to acknowledge the following persons for their support and contrib
 
 ## Documentation Development
 
-* [Roseric Azondekon](https://github.com/rosericazondekon)
+* [Roseric Azondekon](https://rosericazondekon.github.io/)
 
 ## Template Ideas and Development
 
