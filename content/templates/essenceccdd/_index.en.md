@@ -53,7 +53,7 @@ When knit with parameters, this template generates a report in HTML format.
 
 ```r
 # Add `essence_ccdd` to my existing Rnssp installation
-Rnssp::add_rmd_template(template_name = "essence_ccdd")
+Rnssp::add_rmd_template("essence_ccdd")
 ```
 ---
 ## Remove this template

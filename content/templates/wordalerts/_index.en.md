@@ -70,7 +70,7 @@ When knit with parameters, this template generates a report in HTML format.
 
 ```r
 # Add `word_alerts` to my existing Rnssp installation
-Rnssp::add_rmd_template(template_name = "word_alerts")
+Rnssp::add_rmd_template("word_alerts")
 ```
 ---
 ## Remove this template

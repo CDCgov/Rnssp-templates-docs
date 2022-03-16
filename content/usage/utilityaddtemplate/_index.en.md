@@ -11,7 +11,7 @@ This example uses the `essence_ccdd` template:
 
 ```r
 # Add the `essence_ccdd` template
-add_rmd_template(template_name = "essence_ccdd")
+add_rmd_template("essence_ccdd")
 ```
 
 {{% notice warning %}}

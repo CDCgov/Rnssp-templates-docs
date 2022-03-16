@@ -54,7 +54,7 @@ When knit with parameters, this template generates a report in HTML format.
 
 ```r
 # Add `ed_icd10_volume` to my existing Rnssp installation
-Rnssp::add_rmd_template(template_name = "ed_icd10_volume")
+Rnssp::add_rmd_template("ed_icd10_volume")
 ```
 ---
 ## Remove this template

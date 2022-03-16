@@ -47,7 +47,7 @@ When knit with parameters, this template generates a report in HTML format.
 
 ```r
 # Add `state_ed_report` to my existing Rnssp installation
-Rnssp::add_rmd_template(template_name = "state_ed_report")
+Rnssp::add_rmd_template("state_ed_report")
 ```
 ---
 ## Remove this template

@@ -63,7 +63,7 @@ When knit with parameters, this template generates a report in HTML format.
 
 ```r
 # Add `syndrome_eval` to my existing Rnssp installation
-Rnssp::add_rmd_template(template_name = "syndrome_eval")
+Rnssp::add_rmd_template("syndrome_eval")
 ```
 ---
 ## Remove this template

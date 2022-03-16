@@ -51,7 +51,7 @@ When knit with parameters, this template generates a [Flexible Dashboard](https:
 
 ```r
 # Add `text_mining` to my existing Rnssp installation
-Rnssp::add_rmd_template(template_name = "text_mining")
+Rnssp::add_rmd_template("text_mining")
 ```
 ---
 ## Remove this template
