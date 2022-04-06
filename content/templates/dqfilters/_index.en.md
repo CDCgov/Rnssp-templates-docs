@@ -38,7 +38,7 @@ A table is included that lists the DDI and CoV (HasBeenE) values for each data q
 ---
 ## Output
 
-When knit with parameters, this template generates a [Flexible Dashboard](https://pkgs.rstudio.com/flexdashboard/) report in HTML format.
+When knit with parameters, this template generates a report in HTML format.
 
 ---
 ## Add this template
