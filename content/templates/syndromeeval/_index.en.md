@@ -43,12 +43,12 @@ The syndrome definition evaluation template generates:
 * End Date: Recommended to be at least 2 weeks prior to date of running the report to account for a lag in discharge diagnosis data. Automatically modified to be the last day of the MMWR week of the selected end date. 
 * Has been Emergency: TRUE/FALSE option for limiting to emergency department visits
 * "Chunk data pull (per day)?: TRUE/FALSE option for pull the data by chunks (time resolution: one day)
-* CCDD Category (Up to 3): When more than 3 are supplied, only the first 3 are considered by the template
-* Custom Query 1: Free Text Query
+* Grouping systems (Up to 3): When more than 3 are supplied, only the first 3 are considered by the template
+* Custom Query 1: Free Text Query or a CSV type URL from NSSP-ESSENCE DataDetails API
 * Custom Query Label 1: A string labeling Custom Query 1
-* Custom Query 2: Free Text Query
+* Custom Query 2: Free Text Query or a CSV type URL from NSSP-ESSENCE DataDetails API
 * Custom Query Label 1: A string labeling Custom Query 2
-* Custom Query 3: Free Text Query
+* Custom Query 3: Free Text Query or a CSV type URL from NSSP-ESSENCE DataDetails API
 * Custom Query Label 3: A string labeling Custom Query 3
 * A title for the report
 * Export Data: TRUE/FALSE option as to whether to save export and save datasets on the disk. When TRUE, a folder named `Output` is automatically created in the working directory and receives exported data in .csv format.
