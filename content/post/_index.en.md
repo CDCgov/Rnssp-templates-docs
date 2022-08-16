@@ -1,7 +1,7 @@
 ---
 chapter: true
 title: Posts
-weight: 10
+weight: 20
 ---
 
 <!-- ### Chapter 1 -->
