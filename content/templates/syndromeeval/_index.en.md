@@ -42,7 +42,7 @@ The syndrome definition evaluation template generates:
 * Start Date: Automatically modified to be the first day of the MMWR week of the selected start date
 * End Date: Recommended to be at least 2 weeks prior to date of running the report to account for a lag in discharge diagnosis data. Automatically modified to be the last day of the MMWR week of the selected end date. 
 * Has been Emergency: TRUE/FALSE option for limiting to emergency department visits
-* "Chunk data pull (per day)?: TRUE/FALSE option for pull the data by chunks (time resolution: one day)
+* Chunk data pull (per day)?: TRUE/FALSE option for pull the data by chunks (time resolution: one day)
 * Grouping systems (Up to 3): When more than 3 are supplied, only the first 3 are considered by the template
 * Custom Query 1: Free Text Query or a CSV type URL from NSSP-ESSENCE DataDetails API
 * Custom Query Label 1: A string labeling Custom Query 1
