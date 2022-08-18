@@ -30,12 +30,12 @@ The current implementation of word alerts in NSSP-ESSENCE is limited to data fro
 ## Description of Word Alert Algorithm
 The ESSENCE word alert algorithm uses 28-day baselines over which unigram and bigram frequencies are computed. As with the univariate temporal anomaly detection algorithms, a 2-day guardband is used to separate the baseline and test date. For each term that occurred in the testing block (test date), contingency tables are formed to count the number of emergency department encounters with the term/code occurring in the chief complaint/discharge diagnosis and the number of emergency department encounters without the term/code in the chief complaint/discharge diagnosis for both the testing and baseline blocks. 
 
-### Two-by-two contingency table for ABDOMINAL HEADACHE
+### Two-by-two contingency table for RASH SKIN
 
 | Block | Visits with Term | Visits without Term |
 | ----- | ---------------- | ------------------- |
-| Test Date (Last 24 Hours) | A: 3 | B: 7,243 
-| Baseline (28 Days) | C: 59 | D: 231,649 |
+| Test Date (Last 24 Hours) | A: 136 | B: 5,111 
+| Baseline (28 Days) | C: 2,851 | D: 149,477 |
 
 To test for anomalous increases in term occurrence on the test date relative to the baseline, either Fisher’s Exact Test or a Chi-squared Test is applied. Fisher’s Exact Test is applied for moderate counts, whereas a Chi-squared Test is applied for large counts. Terms are determined to have moderate counts if the number of visits in the baseline with the term is less than 1,000 or if the number of visits on the test date without the term is less than 1,000, i.e., min(B,C) < 1,000. Unigrams and bigrams are considered anomalous if the resulting p-value is less than 0.001. 
 
@@ -53,11 +53,14 @@ This HTML report includes interactive visualizations and tables that accommodate
 
 * Access and Management Center (AMC) username and password (securely encrypted)
 * Query start and end dates
-* Data source: CCQV Datamart Backup (NSSP User Only!) or Facility Location (Full Details – Site-level User Only!)
-* Site: Limit to Site (only if using full details for site-level users)
-* Definition: Includes all syndromes, subsyndromes, and CCDD categories available in NSSP-ESSENCE
-* Has Been Emergency: Option to limit data where HasBeenE = Yes (only if using full details for site-level users)
-* Document Title: Custom title for HTML output
+* Has Been Emergency (Full Details only): Option to limit data where HasBeenE = Yes
+* Data source: CCQV Datamart Backup (NSSP User Only!) or Facility Location (Full Details)
+* Limit to Site (Full Details only): Limit to Site or All Sites
+* Age Groups: Options include all existing ESSENCE age grouping systems.
+* Syndrome Definition: CCDD Category, subsyndrome, or syndrome.
+* CCDD Query (Full Details only): Option for custom chief complaint and discharge diagnosis free-text queries. 
+* Complex Query (Full Details only): Option to paste in API URL for complex queries searching multiple fields.
+* Title: Custom title for HTML output.
 
 
 ---
