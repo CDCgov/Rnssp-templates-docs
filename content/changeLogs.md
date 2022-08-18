@@ -199,6 +199,30 @@ This template allows ESSENCE users to evaluate the data details (line level) res
 
 ## Word Alerts Report template (`word_alerts`)
 
+{{%expand "8/18/2022" %}}
+The Word Alerts Report template has been updated. This version:
+
+* Includes a new parameter list to limit to existing ESSENCE age grouping systems.
+
+* Includes an option for "All" under the Limit to Site parameter drop-down list when using the Facility Location (Full Details) data source.
+
+* Allows users to either enter a custom CCDD query or complex query (API URL option) if they do not wish to run the template on an existing ESSENCE syndrome definition.
+
+* Provides more flexibility for selecting start and end dates.
+
+* Uses an up-to-date list of existing ESSENCE CCDD categories, subsyndromes, and syndromes for populating the syndrome definition drop-down list in the template GUI. 
+
+* Includes enhanced summary visualizations of the number of alerts by field and n-gram.
+
+* Includes terms with alerts over the entire date range selected in the sparkline tables rather than those with alerts for the most recent date.
+
+* Uses daily time chunked API pulls for the Facility Location (Full Details) data source with a progress bar.
+
+* Includes a summary parameter table at the beginning of the report to display parameters that a user selects.
+
+* Includes a report appendix section at the end to summarize example stop words by class.
+{{% /expand%}}
+
 {{%expand "11/15/2021" %}}
 The Word Alerts Report template has been updated. This version:
 
