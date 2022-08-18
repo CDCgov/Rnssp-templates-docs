@@ -8,3 +8,4 @@ Rnssp.Rproj
 *.rds
 *.Rproj
 public/
+.hugo_build.lock
