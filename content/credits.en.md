@@ -6,6 +6,10 @@ tags: ["credits", "contribute", "contributor", "developers", "ideas"]
 
 We would like to acknowledge the following persons for their support and contribution:
 
+## Original Idea and Concept
+
+* [Roseric Azondekon](https://rosericazondekon.github.io/)
+
 ## Documentation Development
 
 * [Roseric Azondekon](https://rosericazondekon.github.io/)
@@ -16,6 +20,7 @@ We would like to acknowledge the following persons for their support and contrib
 * [Aaron Kite-Powell](https://github.com/akitepowell)
 * [Michael Sheppard](https://github.com/Michael-Sheppard)
 * [Kelly Carey](https://github.com/kellycarey)
+* [Andrew Farrey](https://github.com/andrew-farrey)
 * [Sara Chronister](https://github.com/sara-chronister)
 * [Roseric Azondekon](https://rosericazondekon.github.io/)
 * The [National Syndromic Surveillance Program (NSSP)](https://www.cdc.gov/nssp/index.html)
