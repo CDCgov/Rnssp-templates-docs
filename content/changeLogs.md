@@ -257,7 +257,7 @@ This template summarizes the DDI Avg Weekly Percent (DDI) and Data Quality CoV (
 
 <hr>
 
-## State Data Quality Report template template (`state_dq_report`)
+## State Data Quality Report template (`state_dq_report`)
 
 {{%expand "1/31/2023" %}}
 The State Data Quality Report template is available.
