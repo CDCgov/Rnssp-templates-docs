@@ -49,14 +49,14 @@ When knit with parameters, this template generates a report in HTML format.
 ## Add this template
 
 ```r
-# Add `dq_filters` to my existing Rnssp installation
+# Add `state_dq_report` to my existing Rnssp installation
 Rnssp::add_rmd_template("state_dq_report")
 ```
 ---
 ## Remove this template
 
 ```r
-# Remove `dq_filters` from my existing Rnssp installation
+# Remove `state_dq_report` from my existing Rnssp installation
 Rnssp::remove_rmd_template("state_dq_report")
 ```
 
