@@ -27,6 +27,12 @@ State Emergency Department template available.
 
 ## Text Analysis Interactive Dashboard template (`text_mining`)
 
+{{%expand "2/14/2023" %}}
+The Text Mining template has been updated.
+
+This version contains uses the 2023 updated ICD 10 codes.
+{{% /expand%}}
+
 {{%expand "8/12/2022" %}}
 The Text Mining template has been updated. This version: 
 
