@@ -21,13 +21,17 @@ create_dir: true
 ---
 ## Detailed Description
 
-The state data quality template calculates and summarizes syndromic surveillance data quality metrics pulled from the BioSense platform and the ESSENCE application programming interface (API). The template assesses the coverage, timeliness, completeness, and validity of patient encounters limited to the selected calculated patient class (C_Patient_Class) that occurred during the chosen date range. Note that default end_date reflects the recommended two day lag time.
+The state data quality template calculates and summarizes syndromic surveillance data quality metrics pulled from the BioSense platform and the ESSENCE application programming interface (API) similar to the NSSP Data Quality Dashboards. The template assesses coverage, timeliness, completeness, and validity of patient encounters limited to the selected calculated patient class (C_Patient_Class) that occurred during the chosen date range. The default start and end dates include the previous two weeks of data, with the recommended two day lag time reflected. Note that selecting a date range longer than 90 days will result in extensive rendering time. 
 
-Coverage visualizations include interactive plotly plots of the total active facility count, total patient encounters limited to the selected C_Patient_Class, total messages received by BioSense for patient encounters limited to the selected C_Patient_Class, and a table of onboarding facilities.
+Coverage visualizations include interactive plots of the total active facility count, total patient encounters limited to the selected C_Patient_Class, total HL7 messages received by BioSense for patient encounters limited to the selected C_Patient_Class, and a table of currently onboarding facilities.
 
-Timeliness visualizations include first message (or "overall") timeliness, message counts by NSSP Timeliness Category by facility, message percentages by NSSP timeliness count by facility, a table of chief complaint timeliness by facility, and a table of diagnosis code timeliness by facility. BioSense platform arrival date time stamps have been adjusted to reflect the user’s selected time zone to avoid adversely affecting timeliness calculations.
+Timeliness visualizations include an overall timeliness plot (depicting first message timeliness), an interactive plot of message counts by NSSP Timeliness Category by facility, an interactive plot of message percentages by NSSP timeliness count by facility, a table containing mean and median first message timeliness by facility, a table containing mean and median chief complaint timeliness by facility (chief complaint lag/delay), and a table containing mean and median diagnosis code timeliness by facility (diagnosis code lag/delay). BioSense platform arrival date time stamps have been adjusted to reflect the user’s selected time zone to avoid adversely affecting timeliness calculations.
 
-All NSSP Priority 1 and NSSP Priority 2 data elements are assessed for completness and validity. Completeness is calculated by data element across the entire patient encounter, while validity is assessed on a per message or per patient encounter basis, depending on each data field’s requirement level. 
+The template assesses all NSSP Priority 1 and NSSP Priority 2 data elements for completeness and validity. Completeness is assessed by data element across the entire patient encounter (required data fields must be present at least once per C_Biosense_ID), while validity is assessed by data element on a per message or per patient encounter basis, depending on each data field’s requirement level (see the validity definition table in the template for more information). 
+
+Completeness visualizations include overall completeness plots for each NSSP priority level broken down by data element, time series plots of CCAvailable and DDAvailable pulled using the ESSENCE API, and a table containing chief complaint and diagnosis code completeness by facility. Validity visualizations include overall validity plots for both NSSP priority levels broken down by data element, validity tables for both NSSP priority level data elements by facility, time series plots of CCInformative and DDInformative pulled using the ESSENCE API, an interactive plot containing messages sent to the user's site exceptions table, and a table containing error message counts by facility received during the selected date range.
+
+Interactive plots were created using the [plotly](https://plotly.com/r/) package. Interactive tables were created using the [DT](https://rstudio.github.io/DT/) package and the [kableExtra](https://cran.r-project.org/web/packages/kableExtra/vignettes/awesome_table_in_html.html) package.
 
 ---
 ## User Inputs
@@ -49,14 +53,14 @@ When knit with parameters, this template generates a report in HTML format.
 ## Add this template
 
 ```r
-# Add `dq_filters` to my existing Rnssp installation
+# Add `state_dq_report` to my existing Rnssp installation
 Rnssp::add_rmd_template("state_dq_report")
 ```
 ---
 ## Remove this template
 
 ```r
-# Remove `dq_filters` from my existing Rnssp installation
+# Remove `state_dq_report` from my existing Rnssp installation
 Rnssp::remove_rmd_template("state_dq_report")
 ```
 
