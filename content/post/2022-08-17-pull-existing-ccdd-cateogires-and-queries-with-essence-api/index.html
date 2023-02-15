@@ -16,10 +16,7 @@ weight: 10
 library(Rnssp)</code></pre>
 <p>If you haven’t already saved your AMC credentials to a <code>myProfile</code> object, then run the following code chunk to supply your username and password:</p>
 <pre class="r"><code>
-myProfile &lt;- Credentials$new(
-  username = askme(&quot;Enter your username: &quot;),
-  password = askme()
-)
+myProfile &lt;- create_profile()
 </code></pre>
 <p>Out of convenience, you can save your <code>myProfile</code> object to either an <code>.rda</code> or <code>.rds</code> file in your home directory as follows:</p>
 <pre class="r"><code>
@@ -41,7 +38,7 @@ myProfile &lt;- readRDS(&quot;~/myProfile.rds&quot;)
 <pre class="r"><code>
 url &lt;- &quot;https://essence.syndromicsurveillance.org/nssp_essence/servlet/SyndromeDefinitionsServlet_CCDD?action=getCCDDTerms&quot;
 
-ccdd_queries &lt;- myProfile$get_api_data(url) %&gt;%
+ccdd_queries &lt;- get_api_data(url) %&gt;%
   pluck(&quot;categories&quot;)
 
 glimpse(ccdd_queries)
@@ -62,12 +59,9 @@ glimpse(ccdd_queries)
 </ul>
 <p>Typically, only the <code>category</code> and <code>definition</code> fields will be of interest. The extraneous fields can be removed by using the <code>select()</code> function:</p>
 <pre class="r"><code>
-ccdd_queries &lt;- myProfile$get_api_data(url) %&gt;%
+ccdd_queries &lt;- get_api_data(url) %&gt;%
   pluck(&quot;categories&quot;) %&gt;%
-  select(
-    category,
-    definition
-  )
+  select(category, definition)
 
 head(ccdd_queries)
 </code></pre>
