@@ -14,7 +14,7 @@ description: >
   and in conjuction with one another.
   Original Code By: Kelly Carey. 
   Adapted to the Rnssp Package by: Gbedegnon Roseric Azondekon. 
-  National Syndromic and Surveillance Program (NSSP). 
+  National Syndromic Surveillance Program (NSSP). 
   Centers for Disease Control and Prevention (CDC).  
 create_dir: true
 ```

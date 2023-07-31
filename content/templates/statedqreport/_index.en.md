@@ -14,7 +14,7 @@ description: >
   It currently includes NSSP Priority 1 & NSSP Priority 2 elements.
   Original Code By: Andrew Farrey (Kentucky Injury Prevention and Research Center).
   Adapted to the Rnssp Package by: Gbedegnon Roseric Azondekon. 
-  National Syndromic and Surveillance Program (NSSP). 
+  National Syndromic Surveillance Program (NSSP). 
   Centers for Disease Control and Prevention (CDC).  
 create_dir: true
 ```
