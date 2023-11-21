@@ -303,3 +303,14 @@ The Lab Year Over Year Trends template is available.
 
 This template generates a trend report of testing volume and the percent of tests that are positive for all Lab A LabCategory 2 options in the ESSENCE Laboratory by Results data source. Users are able to select a time period and geographic region (national, HHS Region, state, or county). 
 {{% /expand%}}
+
+<hr>
+
+## ICD-10 Discharge Diagnosis Code Usage and Feature Template (`icd10_code_use`)
+
+{{%expand "11/21/2023" %}}
+The ICD-10 Discharge Diagnosis Code Usage and Feature Template is available. 
+
+
+This template generates an HTML file with sparkline tables displaying ICD-10 discharge diagnosis codes identified as having recent statistically significant increases or decreases in trend. Data pulled are all encounters for a site and are not limited to a specific CCDD Category, syndrome, or query. Users are able to select an end date, their site, and specify whether or not they want to limit to visits where Has Been Emergency is Yes. 
+{{% /expand%}}
