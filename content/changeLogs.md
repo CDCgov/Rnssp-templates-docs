@@ -306,10 +306,10 @@ This template generates a trend report of testing volume and the percent of test
 
 <hr>
 
-## ICD-10 Discharge Diagnosis Code Usage and Feature Template (`icd10_code_use`)
+## ICD-10 Discharge Diagnosis Code Usage and Features (`icd10_code_use`)
 
 {{%expand "11/21/2023" %}}
-The ICD-10 Discharge Diagnosis Code Usage and Feature Template is available. 
+The ICD-10 Discharge Diagnosis Code Usage and Features template is available. 
 
 
 This template generates an HTML file with sparkline tables displaying ICD-10 discharge diagnosis codes identified as having recent statistically significant increases or decreases in trend. Data pulled are all encounters for a site and are not limited to a specific CCDD Category, syndrome, or query. Users are able to select an end date, their site, and specify whether or not they want to limit to visits where Has Been Emergency is Yes. 
