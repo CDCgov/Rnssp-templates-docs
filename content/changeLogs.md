@@ -306,7 +306,7 @@ This template generates a trend report of testing volume and the percent of test
 
 <hr>
 
-## ICD-10 Discharge Diagnosis Code Usage and Features (`icd10_code_use`)
+## ICD-10 Discharge Diagnosis Code Usage and Features template (`icd10_code_use`)
 
 {{%expand "11/21/2023" %}}
 The ICD-10 Discharge Diagnosis Code Usage and Features template is available. 
