@@ -21,9 +21,9 @@ create_dir: true
 ---
 ## Detailed Description
 
-This template summarizes the DDI Avg Weekly Percent (DDI) and Data Quality CoV (HasBeenE) (CoV (HasBeenE)) filters individually and in conjuction with one another. 
+This template summarizes the Discharge Diagnosis Informative Avg Weekly Percent (DDI) and Data Quality Coefficient of Variation (CoV/CoV (HasBeenE)) filters individually and in conjuction with one another. Selections for site, facility type, and visit type are included and the report will automatically adjust the filter year and CoV filter to input parameters.
 
-Matrices summarize the weekly number of facilities reporting data and the overall visit volume for each data quality filter duration (current year, one year back, two years back, three years back, and four years back) for DDI cutpoints of 70%, 75%, and 80%, and CoV (HasBeenE) cut points of 30, 35, 40, and 45. 
+Matrices summarize the weekly number of facilities reporting data and the overall visit volume for each data quality filter duration based on the start year selected (current year through 10 years back) for DDI cutpoints of 70%, 75%, and 80%, and CoV (HasBeenE) cut points of 30, 35, 40, and 45.
 
 A table is included that lists the DDI and CoV (HasBeenE) values for each data quality filter year for all facilities included in the report.
 
@@ -32,8 +32,10 @@ A table is included that lists the DDI and CoV (HasBeenE) values for each data q
 
 * NSSP Username: NSSP ESSENCE account username
 * NSSP Password: NSSP account password
-* Site ID: Geographic region. Can be national or a participating site. 
-
+* Start Date Year: First year of time period of interest. The report will automatically select the correct data quality filter years that cover data from the start year to the present year.
+* Site ID: Geographic region. Can be national or a participating site. Multiple sites can be selected.
+* Facility Type(s): Facility classifications to be included in the report.
+* Limit visits to HasBeenE = Yes?" If yes, only emergency department visits (HasBeenE = Yes) will be included. If no, all visits will be included. 
 
 ---
 ## Output
