@@ -53,7 +53,7 @@ This HTML report includes interactive visualizations and tables that accommodate
 
 * Access and Management Center (AMC) username and password (securely encrypted)
 * Query start and end dates
-* Has Been Emergency (Full Details only): Option to limit data where HasBeenE = Yes
+* Has Been Emergency: Option to limit data where HasBeenE = Yes
 * Data source: CCQV Datamart Backup (NSSP User Only!) or Facility Location (Full Details)
 * Limit to Site (Full Details only): Limit to Site or All Sites
 * Age Groups: Options include all existing ESSENCE age grouping systems.
