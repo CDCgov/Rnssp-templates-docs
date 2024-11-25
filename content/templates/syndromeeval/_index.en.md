@@ -11,7 +11,7 @@ description: >
   An automated report template that allows ESSENCE users 
   to evaluate the data details (line level) results of 
   one, two, or three syndrome definitions at a time. 
-  Original Script By: Sara Chronister (Maricopa County, AZ). 
+  Original Script By: Sara Chronister. 
   Revamped and Adapted to the Rnssp Package by: Gbedegnon Roseric Azondekon. 
   National Syndromic Surveillance Program (NSSP). 
   Centers for Disease Control and Prevention (CDC).
@@ -20,7 +20,7 @@ create_dir: true
 ---
 ## Detailed Description
 
-The Syndrome Definition Evaluation template (`syndrome_eval`) allows ESSENCE users to evaluate the data details (line level) results of one, two, or three syndrome definitions at a time.
+The Syndrome Definition Evaluation template (`syndrome_eval`) allows ESSENCE users to evaluate the data details (line level) results of one, two, or three syndrome definitions at a time. This template is adapted from the [syndrome definition toolkit](https://github.com/sara-chronister/syndrome-definition-evaluation). Find her latest work [here](https://github.com/sara-chronister/syndrome-definition-evaluation).
 
 This template parses syndrome terms, identifies their type and count their CCDD matches.
 
