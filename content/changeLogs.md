@@ -27,6 +27,16 @@ State Emergency Department template available.
 
 ## Text Analysis Interactive Dashboard template (`text_mining`)
 
+{{%expand "3/5/2025" %}}
+The Text Mining template has been updated. This version:
+
+* Has an updated user interface with interactive visualizations produced with echarts4R
+
+* Includes a co-occurrence network graph for discharge diagnosis codes
+
+* Uses the DDParsed field for discharge diagnosis codes
+{{% /expand%}}
+
 {{%expand "2/14/2023" %}}
 The Text Mining template has been updated.
 
