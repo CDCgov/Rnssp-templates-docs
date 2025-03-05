@@ -6,12 +6,12 @@ tags: ["state", "county", "emergency", "department", "glm", "lm", "nssp", "essen
 
 ```yaml
 name: state_ed_report
-fullname: Text Analysis Interactive Dashboard
+fullname: State Emergency Department Report
 description: >
-  An automated Text Analysis Interactive Dashboard template. 
-  Original Code By: Michael Sheppard. 
-  Adapted to the Rnssp Package by: Gbedegnon Roseric Azondekon. 
-  National Syndromic Surveillance Program (NSSP). 
+  An automated state emergency department report template summarizing CCDD categories.
+  Original Code By: Michael Sheppard.
+  Adapted to the Rnssp Package by: Gbedegnon Roseric Azondekon.
+  National Syndromic Surveillance Program.
   Centers for Disease Control and Prevention (CDC).
 create_dir: true
 ```
