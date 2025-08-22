@@ -26,7 +26,7 @@ jobs:
       - name: Build
         run: hugo --minify
 
-        - name: Check public directory exists and is not empty
+        - name: Check public directory exists and is not empty 
           run: |
             if [ ! -d "public" ] || [ -z "$(ls -A public)" ]; then
               echo "public/ directory missing or empty. Failing workflow.";
