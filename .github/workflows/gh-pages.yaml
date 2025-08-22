@@ -27,7 +27,7 @@ jobs:
         run: hugo --minify
 
       - name: Push generated doc to Rnssp-rmd-templates
-        uses: nkoppel/push-files-to-another-repository@v1.1.4
+        uses: nkoppel/push-files-to-another-repository@v1.1.0
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
