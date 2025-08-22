@@ -26,20 +26,6 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Check public directory exists and is not empty
-        run: |
-          if [ ! -d "public" ] || [ -z "$(ls -A public)" ]; then
-            echo "public/ directory missing or empty. Failing workflow.";
-            exit 1;
-          fi
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        if: github.ref == 'refs/heads/master'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-
       - name: Push generated doc to Rnssp-rmd-templates
         uses: nkoppel/push-files-to-another-repository@v1.1.4
         env:
