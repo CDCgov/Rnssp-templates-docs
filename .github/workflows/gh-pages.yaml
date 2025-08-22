@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.90.1'
           # extended: true
@@ -31,7 +31,7 @@ jobs:
       #     publish_dir: ./public
       
       - name: Push generated doc to Rnssp-rmd-templates
-        uses: nkoppel/push-files-to-another-repository@v1.1.0
+        uses: nkoppel/push-files-to-another-repository@v1.1.4
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
