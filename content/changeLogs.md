@@ -358,6 +358,13 @@ This template generates a trend report of testing volume and the percent of test
 
 ## ICD-10 Discharge Diagnosis Code Usage and Features template (`icd10_code_use`)
 
+{{%expand "4/30/2026" %}}
+The ICD-10 Discharge Diagnosis Code Usage and Features template has been updated. This version:
+
+* Accounts for ICD-10 coding changes for FY-2026
+
+{{% /expand%}}
+
 {{%expand "11/20/2024" %}}
 The ICD-10 Discharge Diagnosis Code Usage and Features template has been updated. This version:
 
