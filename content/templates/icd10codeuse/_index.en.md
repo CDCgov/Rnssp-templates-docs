@@ -36,6 +36,7 @@ This template supports asyndromic surveillance by considering all ICD-10 dischar
 * End Date: Saturday end date of the last week to include
 * Has been Emergency: Checked by default to limit to ED encounters. If unchecked, records from other facility types (i.e., urgent care visits) will be included.
 * Site: Site name
+* Complex Query: option to paste in API URL for complex queries
 * Title: Customized title, otherwise set to ICD-10 Discharge Diagnosis Code Usage and Feature Template by default
 
 
