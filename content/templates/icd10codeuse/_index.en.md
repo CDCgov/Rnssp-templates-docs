@@ -61,7 +61,7 @@ Rnssp::remove_rmd_template("icd10_code_use")
 ```
 
 ---
-[**Latest Update!**](https://cdcgov.github.io/Rnssp-rmd-templates/changelogs/#icd-10-discharge-diagnosis-code-usage-and-features-template-icd10_code_use)
+[**Latest Update!**](https://cdcgov.github.io/Rnssp-rmd-templates/changelogs/#icd-10-discharge-diagnosis-code-usage-and-features-icd10_code_use)
 
 *For questions, ideas for improvement/collaboration, or attribution, please submit an issue [here](https://github.com/CDCgov/Rnssp-rmd-templates/issues).*
 
